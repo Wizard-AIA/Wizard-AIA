@@ -2,7 +2,7 @@
 
 > A local-first autonomous data analysis agent. Ask a real question about your data; it investigates — looking, computing, revising its approach when the data disagrees with it — then verifies the result and explains it, streaming its reasoning as it goes.
 
-![Status](https://img.shields.io/badge/Status-Active-success) [![Release](https://img.shields.io/github/v/release/Wizard-AIA/Wizard-w2?label=Release&color=orange)](https://github.com/Wizard-AIA/Wizard-w2/releases/latest) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/Wizard-AIA/Wizard-w2/blob/master/LICENSE) [![Docs](https://img.shields.io/badge/Docs-wizard--aia.github.io-blue)](https://wizard-aia.github.io/docs/) [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Wizard-AIA/Wizard-w2/badge)](https://scorecard.dev/viewer/?uri=github.com/Wizard-AIA/Wizard-w2)
+![Status](https://img.shields.io/badge/Status-Active-success) [![Release](https://img.shields.io/github/v/release/Wizard-AIA/Wizard-w2?label=Release&color=orange)](https://github.com/Wizard-AIA/Wizard-w2/releases/latest) [![Homebrew](https://img.shields.io/badge/brew-wizard-green)](https://github.com/Wizard-AIA/homebrew-wizard) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Wizard-AIA/Wizard-w2) [![Awesome](https://awesome.re/badge-flat2.svg)](https://github.com/Wizard-AIA/awesome-wizard) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/Wizard-AIA/Wizard-w2/blob/master/LICENSE) [![Docs](https://img.shields.io/badge/Docs-wizard--aia.github.io-blue)](https://wizard-aia.github.io/docs/) [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Wizard-AIA/Wizard-w2/badge)](https://scorecard.dev/viewer/?uri=github.com/Wizard-AIA/Wizard-w2)
 
 Your data never leaves your machine unless you choose a cloud provider. No API key is required — two small [Ollama](https://ollama.com/) or [LM Studio](https://lmstudio.ai/) models running locally are all it takes.
 
@@ -10,8 +10,15 @@ Your data never leaves your machine unless you choose a cloud provider. No API k
 
 ---
 
-## ⚡ Quick Download
+## ⚡ Quick Start
 
+### 🍺 Install with Homebrew (macOS & Linux)
+```bash
+brew install Wizard-AIA/wizard/wizard
+wizard init && wizard start
+```
+
+### 📦 Standalone Packages
 Download the prebuilt standalone package for your operating system, extract it, and launch:
 
 | Operating System | Architecture | Download Package |
@@ -37,9 +44,11 @@ Open **http://localhost:3000** to begin analyzing your data.
 | Repository | Description |
 |---|---|
 | **[Wizard-w2](https://github.com/Wizard-AIA/Wizard-w2)** | Core Engine: FastAPI backend, Next.js analytical workspace, OS-contained sandboxes, and Go CLI supervisor. |
+| **[awesome-wizard](https://github.com/Wizard-AIA/awesome-wizard)** | Curated playbooks, sample datasets, local model recipes, and community integrations. |
+| **[homebrew-wizard](https://github.com/Wizard-AIA/homebrew-wizard)** | Official Homebrew tap for one-command macOS and Linux installation (`brew install wizard`). |
 | **[docs](https://github.com/Wizard-AIA/docs)** | Official documentation site source and technical architecture specifications. |
 | **[skills](https://github.com/Wizard-AIA/skills)** | Community registry of curated `SKILL.md` know-how files the agent retrieves and executes mid-turn. |
-| **[.github](https://github.com/Wizard-AIA/.github)** | Organization-wide default issue templates, security reporting, and community guidelines. |
+| **[.github](https://github.com/Wizard-AIA/.github)** | Organization-wide issue forms, welcome automation, and security policies. |
 
 ---
 
@@ -53,4 +62,12 @@ Open **http://localhost:3000** to begin analyzing your data.
 
 ---
 
-BSD-3-Clause Licensed. Contributions are welcome — see [CONTRIBUTING.md](https://github.com/Wizard-AIA/Wizard-w2/blob/master/CONTRIBUTING.md) to get involved.
+## 👥 Contributors
+
+Thank you to everyone building and improving Wizard!
+
+[![Contributors](https://contrib.rocks/image?repo=Wizard-AIA/Wizard-w2)](https://github.com/Wizard-AIA/Wizard-w2/graphs/contributors)
+
+---
+
+BSD-3-Clause Licensed. Created by **Aniket Saha** ([@Aniket-a14](https://github.com/Aniket-a14)). Contributions are welcome — see [CONTRIBUTING.md](https://github.com/Wizard-AIA/Wizard-w2/blob/master/CONTRIBUTING.md) to get involved.
