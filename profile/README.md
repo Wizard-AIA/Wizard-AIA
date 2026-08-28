@@ -12,10 +12,21 @@ Your data never leaves your machine unless you choose a cloud provider. No API k
 
 ## ⚡ Quick Start
 
-### 🍺 Install with Homebrew (macOS & Linux)
+### 🚀 1-Command Automated Installers
+
+**Linux & macOS:**
+```bash
+curl -fsSL https://wizardw2.vercel.app/install.sh | bash
+```
+
+**Windows (PowerShell):**
+```powershell
+irm https://wizardw2.vercel.app/install.ps1 | iex
+```
+
+**Homebrew (macOS & Linux):**
 ```bash
 brew tap Wizard-AIA/wizard && brew install wizard
-wizard init && wizard start
 ```
 
 ### 📦 Standalone Packages
@@ -23,11 +34,11 @@ Download the prebuilt standalone package for your operating system, extract it, 
 
 | Operating System | Architecture | Download Package |
 |---|---|---|
-| **macOS** | Apple Silicon (M1 / M2 / M3 / M4) | [**`Wizard-v1.0.2-darwin-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.2/Wizard-v1.0.2-darwin-arm64.zip) |
-| **macOS** | Intel x86_64 | [**`Wizard-v1.0.2-darwin-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.2/Wizard-v1.0.2-darwin-amd64.zip) |
-| **Linux** | x86_64 / amd64 | [**`Wizard-v1.0.2-linux-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.2/Wizard-v1.0.2-linux-amd64.zip) |
-| **Linux** | ARM64 / aarch64 | [**`Wizard-v1.0.2-linux-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.2/Wizard-v1.0.2-linux-arm64.zip) |
-| **Windows** | x86_64 | [**`Wizard-v1.0.2-windows-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.2/Wizard-v1.0.2-windows-amd64.zip) |
+| **macOS** | Apple Silicon (M1 / M2 / M3 / M4) | [**`Wizard-v1.0.4-darwin-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-darwin-arm64.zip) |
+| **macOS** | Intel x86_64 | [**`Wizard-v1.0.4-darwin-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-darwin-amd64.zip) |
+| **Linux** | x86_64 / amd64 | [**`Wizard-v1.0.4-linux-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-linux-amd64.zip) |
+| **Linux** | ARM64 / aarch64 | [**`Wizard-v1.0.4-linux-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-linux-arm64.zip) |
+| **Windows** | x86_64 | [**`Wizard-v1.0.4-windows-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-windows-amd64.zip) |
 
 ```bash
 # After extracting your zip:
