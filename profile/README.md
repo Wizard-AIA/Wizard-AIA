@@ -34,11 +34,11 @@ Download the prebuilt standalone package for your operating system, extract it, 
 
 | Operating System | Architecture | Download Package |
 |---|---|---|
-| **macOS** | Apple Silicon (M1 / M2 / M3 / M4) | [**`Wizard-v1.0.4-darwin-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-darwin-arm64.zip) |
-| **macOS** | Intel x86_64 | [**`Wizard-v1.0.4-darwin-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-darwin-amd64.zip) |
-| **Linux** | x86_64 / amd64 | [**`Wizard-v1.0.4-linux-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-linux-amd64.zip) |
-| **Linux** | ARM64 / aarch64 | [**`Wizard-v1.0.4-linux-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-linux-arm64.zip) |
-| **Windows** | x86_64 | [**`Wizard-v1.0.4-windows-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.4/Wizard-v1.0.4-windows-amd64.zip) |
+| **macOS** | Apple Silicon (M1 / M2 / M3 / M4) | [**`Wizard-v1.0.5-darwin-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-darwin-arm64.zip) |
+| **macOS** | Intel x86_64 | [**`Wizard-v1.0.5-darwin-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-darwin-amd64.zip) |
+| **Linux** | x86_64 / amd64 | [**`Wizard-v1.0.5-linux-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-linux-amd64.zip) |
+| **Linux** | ARM64 / aarch64 | [**`Wizard-v1.0.5-linux-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-linux-arm64.zip) |
+| **Windows** | x86_64 | [**`Wizard-v1.0.5-windows-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-windows-amd64.zip) |
 
 ```bash
 # After extracting your zip:
