@@ -29,20 +29,29 @@ irm https://wizardw2.vercel.app/install.ps1 | iex
 brew tap Wizard-AIA/wizard && brew install wizard
 ```
 
+After any installer completes, open a new terminal if prompted and run from
+any directory:
+
+```bash
+wizard init       # Guided provider, privacy, model, embedding, and key setup
+wizard start      # Starts the backend and frontend services
+wizard delete --yes  # Removes Wizard-managed local state when needed
+```
+
 ### 📦 Standalone Packages
 Download the prebuilt standalone package for your operating system, extract it, and launch:
 
 | Operating System | Architecture | Download Package |
 |---|---|---|
-| **macOS** | Apple Silicon (M1 / M2 / M3 / M4) | [**`Wizard-v1.0.5-darwin-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-darwin-arm64.zip) |
-| **macOS** | Intel x86_64 | [**`Wizard-v1.0.5-darwin-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-darwin-amd64.zip) |
-| **Linux** | x86_64 / amd64 | [**`Wizard-v1.0.5-linux-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-linux-amd64.zip) |
-| **Linux** | ARM64 / aarch64 | [**`Wizard-v1.0.5-linux-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-linux-arm64.zip) |
-| **Windows** | x86_64 | [**`Wizard-v1.0.5-windows-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.5/Wizard-v1.0.5-windows-amd64.zip) |
+| **macOS** | Apple Silicon (M1 / M2 / M3 / M4) | [**`Wizard-v1.0.9-darwin-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.9/Wizard-v1.0.9-darwin-arm64.zip) |
+| **macOS** | Intel x86_64 | [**`Wizard-v1.0.9-darwin-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.9/Wizard-v1.0.9-darwin-amd64.zip) |
+| **Linux** | x86_64 / amd64 | [**`Wizard-v1.0.9-linux-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.9/Wizard-v1.0.9-linux-amd64.zip) |
+| **Linux** | ARM64 / aarch64 | [**`Wizard-v1.0.9-linux-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.9/Wizard-v1.0.9-linux-arm64.zip) |
+| **Windows** | x86_64 | [**`Wizard-v1.0.9-windows-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.9/Wizard-v1.0.9-windows-amd64.zip) |
 
 ```bash
-# After extracting your zip:
-./cli/wizard init       # Checks prerequisites & installs environment
+# After extracting your zip, run from the extracted folder:
+./cli/wizard init       # Guided setup and environment initialization
 ./cli/wizard start      # Starts backend + frontend daemon and opens your browser
 ```
 
