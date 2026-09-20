@@ -12,50 +12,37 @@ Your data never leaves your machine unless you choose a cloud provider. No API k
 
 ## ⚡ Quick Start
 
-### 🚀 1-Command Automated Installers
+### 🚀 1-Command Installers
 
 **Linux & macOS:**
 ```bash
-curl -fsSL https://wizardw2.vercel.app/install.sh | bash
+curl -fsSL https://wizardw2.vercel.app/install.sh | sh
 ```
 
-**Windows (PowerShell):**
+**Windows (PowerShell 5.1 or 7):**
 ```powershell
 irm https://wizardw2.vercel.app/install.ps1 | iex
 ```
 
 **Homebrew (macOS & Linux):**
 ```bash
-brew tap Wizard-AIA/wizard && brew install wizard
+brew install Wizard-AIA/wizard/wizard
 ```
 
-After any installer completes, open a new terminal if prompted and run from
-any directory:
+Then, from any directory:
 
 ```bash
-wizard init       # Guided provider, privacy, model, embedding, and key setup
-wizard start      # Starts the backend and frontend services
-wizard delete --yes  # Removes Wizard-managed local state when needed
+wizard --version  # confirm the install
+wizard init       # choose a provider and models, install what is missing
+wizard start      # launches Wizard and opens http://localhost:3000
+wizard doctor     # if anything looks wrong: checks the install and says how to fix it
 ```
 
 ### 📦 Standalone Packages
-Download the prebuilt standalone package for your operating system, extract it, and launch:
 
-| Operating System | Architecture | Download Package |
-|---|---|---|
-| **macOS** | Apple Silicon (M1 / M2 / M3 / M4) | [**`Wizard-v1.0.12-darwin-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.12/Wizard-v1.0.12-darwin-arm64.zip) |
-| **macOS** | Intel x86_64 | [**`Wizard-v1.0.12-darwin-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.12/Wizard-v1.0.12-darwin-amd64.zip) |
-| **Linux** | x86_64 / amd64 | [**`Wizard-v1.0.12-linux-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.12/Wizard-v1.0.12-linux-amd64.zip) |
-| **Linux** | ARM64 / aarch64 | [**`Wizard-v1.0.12-linux-arm64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.12/Wizard-v1.0.12-linux-arm64.zip) |
-| **Windows** | x86_64 | [**`Wizard-v1.0.12-windows-amd64.zip`**](https://github.com/Wizard-AIA/Wizard-w2/releases/download/v1.0.12/Wizard-v1.0.12-windows-amd64.zip) |
+Prebuilt archives for macOS (Apple Silicon and Intel), Linux (x86-64 and ARM64) and Windows (x86-64), with a `SHA256SUMS` file, are on the **[latest release page](https://github.com/Wizard-AIA/Wizard-w2/releases/latest)**. Check the archive against `SHA256SUMS`, extract it, then from the extracted `Wizard-v<version>-<platform>` folder run `./cli/wizard init` and `./cli/wizard start`.
 
-```bash
-# After extracting your zip, run from the extracted folder:
-./cli/wizard init       # Guided setup and environment initialization
-./cli/wizard start      # Starts backend + frontend daemon and opens your browser
-```
-
-Open **http://localhost:3000** to begin analyzing your data.
+Open **http://localhost:3000** to begin analyzing your data. Nothing above needs administrator rights.
 
 ---
 
